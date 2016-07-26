@@ -1,0 +1,136 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Eventino.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link href="Css/StyleSheet.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-image:url('https://wallpaperscraft.com/image/silk_white_fabric_softness_7321_1920x1080.jpg')">
+    <form id="form1" runat="server">
+    <nav class="navbar navbar-default navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="container">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#"></a></li>
+                        <li><a href="#">Link</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Event <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Metting & Conferences</a></li>
+                                <li><a href="#">Religions</a></li>
+                                <li><a href="#">Entertainment</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Special Events</a></li>
+                                <li><a href="#">Others</a></li>
+                                
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <p id="LoginText" runat="server" class="navbar-text">Already have an account?</p>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#" id="loggedUser" runat="server" class="dropdown-toggle" data-toggle="dropdown"><img id="profileImg" runat="server" src="~/DataFiles/Images/unisex.jpg" height="30" width="30" /> <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Metting & Conferences</a></li>
+                                <li><a href="#">Religions</a></li>
+                                <li><a href="#">Entertainment</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Special Events</a></li>
+                                <li> <asp:LinkButton ID="logoutControl" OnClick="logoutControl_Click" runat="server">Log Out</asp:LinkButton> </li>
+                                
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a id="loginOp" runat="server" href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+                            <ul id="login-dp" class="dropdown-menu">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            Login via
+								<div class="social-buttons">
+                                    <a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i>Facebook</a>
+                                    <a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i>Twitter</a>
+                                </div>
+                                            or
+                                
+                                    <div class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                                        <div class="form-group">
+                                            <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                                            <asp:TextBox ID="username" CssClass="form-control" runat="server"></asp:TextBox>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="sr-only" for="exampleInputPassword2">Password</label>
+                                            <asp:TextBox ID="pwd" CssClass="form-control" type="password" runat="server"></asp:TextBox>
+                                            <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <asp:Button ID="signin" runat="server" CssClass="btn btn-primary" OnClick="signin_Click" Text="Sign In" />
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox">
+                                                keep me logged-in
+                                            </label>
+                                        </div>
+                                    </div>
+                                        </div>
+                                        <div class="bottom text-center">
+                                            New here ? <a href="Pages/signup.aspx" runat="server"><b>Join Us</b></a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
