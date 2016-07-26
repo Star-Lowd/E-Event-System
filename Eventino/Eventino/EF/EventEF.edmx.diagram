@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1a02ca47f868448ba205046f05370d17" Name="Diagram1">
+        <EntityTypeShape EntityType="EventModel.ACCOUNT" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EventModel.COMMENT" Width="1.5" PointX="5.25" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EventModel.COUNTRY" Width="1.5" PointX="3.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EventModel.EVENT" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EventModel.EVENTIMAGE" Width="1.5" PointX="5.25" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EventModel.EVENTTYPE" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="EventModel.EVENTVIDEO" Width="1.5" PointX="5.25" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EventModel.LIKE" Width="1.5" PointX="8.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EventModel.LOGIN" Width="1.5" PointX="3.75" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EventModel.REPLY" Width="1.5" PointX="10.5" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EventModel.VIEW" Width="1.5" PointX="8.25" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="EventModel.FK__ACCOUNT__COUNTRY__15502E78" ManuallyRouted="false" />
+        <AssociationConnector Association="EventModel.FK__ACCOUNT__LOGINID__145C0A3F" ManuallyRouted="false" />
+        <AssociationConnector Association="EventModel.FK__COMMENT__ACCOUNT__24927208" ManuallyRouted="false" />
+        <AssociationConnector Association="EventModel.FK__LIKE__ACCOUNTID__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="EventModel.FK__REPLY__ACCOUNTID__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="EventModel.FK__VIEW__ACCOUNTID__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="EventModel.FK__COMMENT__EVENTID__25869641" ManuallyRouted="false" />
+        <AssociationConnector Association="EventModel.FK__REPLY__COMMENTID__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="EventModel.FK__EVENT__EVENTTYPE__1B0907CE" ManuallyRouted="false" />
+        <AssociationConnector Association="EventModel.FK__EVENTIMAG__EVENT__21B6055D" ManuallyRouted="false" />
+        <AssociationConnector Association="EventModel.FK__EVENTVIDE__EVENT__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="EventModel.FK__LIKE__EVENTID__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="EventModel.FK__VIEW__EVENTID__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="EventModel.FK__EVENT__LOGINID__34C8D9D1" />
+        <AssociationConnector Association="EventModel.FK__LIKE__LOGINID__35BCFE0A" />
+        <AssociationConnector Association="EventModel.FK__COMMENT__LOGINID__47DBAE45" />
+        <AssociationConnector Association="EventModel.FK__REPLY__LOGINID__48CFD27E" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

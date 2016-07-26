@@ -1,0 +1,36 @@
+c:\users\fabvera\documents\visual studio 2013\Projects\Eventino\Eventino\bin\Eventino.dll.config
+c:\users\fabvera\documents\visual studio 2013\Projects\Eventino\Eventino\bin\Eventino.dll
+c:\users\fabvera\documents\visual studio 2013\Projects\Eventino\Eventino\bin\Eventino.pdb
+c:\users\fabvera\documents\visual studio 2013\Projects\Eventino\Eventino\bin\EntityFramework.dll
+c:\users\fabvera\documents\visual studio 2013\Projects\Eventino\Eventino\bin\EntityFramework.SqlServer.dll
+c:\users\fabvera\documents\visual studio 2013\Projects\Eventino\Eventino\bin\Microsoft.AspNet.FriendlyUrls.dll
+c:\users\fabvera\documents\visual studio 2013\Projects\Eventino\Eventino\bin\EntityFramework.xml
+c:\users\fabvera\documents\visual studio 2013\Projects\Eventino\Eventino\bin\EntityFramework.SqlServer.xml
+c:\users\fabvera\documents\visual studio 2013\Projects\Eventino\Eventino\bin\Microsoft.AspNet.FriendlyUrls.xml
+c:\users\fabvera\documents\visual studio 2013\Projects\Eventino\Eventino\obj\Debug\Eventino.csprojResolveAssemblyReference.cache
+c:\users\fabvera\documents\visual studio 2013\Projects\Eventino\Eventino\obj\Debug\Eventino.dll
+c:\users\fabvera\documents\visual studio 2013\Projects\Eventino\Eventino\obj\Debug\Eventino.pdb
+C:\Users\Fabulous J\Desktop\Eventino\Eventino\obj\Debug\Eventino.csprojResolveAssemblyReference.cache
+C:\Users\Fabulous J\Desktop\Eventino\Eventino\obj\Debug\Eventino.dll
+C:\Users\Fabulous J\Desktop\Eventino\Eventino\obj\Debug\Eventino.pdb
+C:\Users\Fabulous J\Desktop\Eventino\Eventino\bin\Eventino.dll.config
+C:\Users\Fabulous J\Desktop\Eventino\Eventino\bin\Eventino.dll
+C:\Users\Fabulous J\Desktop\Eventino\Eventino\bin\Eventino.pdb
+C:\Users\Fabulous J\Desktop\Eventino\Eventino\bin\EntityFramework.dll
+C:\Users\Fabulous J\Desktop\Eventino\Eventino\bin\EntityFramework.SqlServer.dll
+C:\Users\Fabulous J\Desktop\Eventino\Eventino\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Fabulous J\Desktop\Eventino\Eventino\bin\EntityFramework.xml
+C:\Users\Fabulous J\Desktop\Eventino\Eventino\bin\EntityFramework.SqlServer.xml
+C:\Users\Fabulous J\Desktop\Eventino\Eventino\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\FabVera\Desktop\Eventino\Eventino\bin\Eventino.dll.config
+C:\Users\FabVera\Desktop\Eventino\Eventino\bin\Eventino.dll
+C:\Users\FabVera\Desktop\Eventino\Eventino\bin\Eventino.pdb
+C:\Users\FabVera\Desktop\Eventino\Eventino\bin\EntityFramework.dll
+C:\Users\FabVera\Desktop\Eventino\Eventino\bin\EntityFramework.SqlServer.dll
+C:\Users\FabVera\Desktop\Eventino\Eventino\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\FabVera\Desktop\Eventino\Eventino\bin\EntityFramework.xml
+C:\Users\FabVera\Desktop\Eventino\Eventino\bin\EntityFramework.SqlServer.xml
+C:\Users\FabVera\Desktop\Eventino\Eventino\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\FabVera\Desktop\Eventino\Eventino\obj\Debug\Eventino.csprojResolveAssemblyReference.cache
+C:\Users\FabVera\Desktop\Eventino\Eventino\obj\Debug\Eventino.dll
+C:\Users\FabVera\Desktop\Eventino\Eventino\obj\Debug\Eventino.pdb
